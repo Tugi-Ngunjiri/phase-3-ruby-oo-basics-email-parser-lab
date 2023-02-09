@@ -6,6 +6,7 @@ class Email_addressParser
 email_addresses = "mary@example.com,person@someplace.org"
 parser = EmailAddressParser.new(email_addresses)
 end
+
 parser.parse
 # =>["mary@example.com", "person@someplace.org"]
 
